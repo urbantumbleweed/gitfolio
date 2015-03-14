@@ -1,0 +1,45 @@
+{
+  "name": "gitfolio",
+  "version": "0.0.0",
+  "description": "Presents a users repositories in nice grid format with summary information for each repo.",
+  "main": "App.js",
+  "scripts": {
+    "test": "lab -cvL",
+    "start": "webpack-dev-server --content-base public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/urbantumbleweed/gitfolio.git"
+  },
+  "keywords": [
+    "react",
+    "flux",
+    "github",
+    "api",
+    "firebase",
+    "react-router",
+    "webpack"
+  ],
+  "author": "Stephen Saunders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/urbantumbleweed/gitfolio/issues"
+  },
+  "homepage": "https://github.com/urbantumbleweed/gitfolio",
+  "dependencies": {
+    "axios": "^0.5.2",
+    "babel": "^4.7.12",
+    "flux": "^2.0.1",
+    "lodash": "^3.5.0",
+    "react": "^0.12.1",
+    "react-router": "^0.12.4",
+    "when": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-core": "^4.7.12",
+    "babel-loader": "^4.1.0",
+    "jsx-loader": "^0.12.2",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.7.0"
+  }
+}
